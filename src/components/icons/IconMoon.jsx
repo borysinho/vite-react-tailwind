@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 // Aqui se utilizan 3 conceptos de javasript que son claves:
 // Desestructuracion en los parametros de la funcion, rest operator en el parametro de la funcion ...props y spread operator para sacar todo lo que contiene el objeto en {...props}
 
-const MoonIcon = ({ fill = "#fff", ...props }) => {
+const IconMoon = ({ fill = "#fff", ...props }) => {
   return (
     <svg
       fill={fill}
@@ -22,9 +22,9 @@ const MoonIcon = ({ fill = "#fff", ...props }) => {
   );
 };
 
-MoonIcon.propTypes = {
+IconMoon.propTypes = {
   fill: PropTypes.string,
   props: PropTypes.array,
 };
 
-export default MoonIcon;
+export default IconMoon;
