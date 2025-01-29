@@ -20,7 +20,7 @@ const Header = () => {
   }, [darkMode]);
 
   return (
-    <header className="container mx-auto px-4 pt-8">
+    <header className="container mx-auto px-4 pt-8 md:max-w-xl">
       {/* Con el justify-between podemos mandarlos a los extremos */}
       <div className="flex justify-between">
         {/* letter-spacing de CSS en tailwind es tracking-*/}
